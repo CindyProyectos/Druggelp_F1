@@ -10,6 +10,7 @@ import {Cart} from '../models/Cart';
 import {Item} from '../models/Item';
 import {JwtResponse} from '../response/JwtResponse';
 import {ProductInOrder} from '../models/ProductInOrder';
+import { environment } from '../../environments/environment';
 
 @Injectable({
     providedIn: 'root'
